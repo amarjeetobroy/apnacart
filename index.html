@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna-Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo1.jpg"  class="logo" alt=""></a>
+
+        <!-- <section id="top">
+            <h3>APNACART</h3>
+        </section> -->
+      <section id="top">
+        <div id="top"><h4 class='animated infinite heartBeat'><i class='bx bxs-flag-alt'></i>APNACART</h4></div>
+    </section>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign.html">SignIn</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-outdent"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <div class="header">
+        <div class="container">
+            <b> NEWS :</b>
+            <marquee>
+                Welcome to Apnacart : 
+                Today offer is Discount 80% for on Rs.5000 shoap.
+            </marquee>
+        </div>
+    </div>
+    <!-- <marquee>
+        My college: Intelligence plus curisoity-that is the root 
+        of true education.
+    </marquee> -->
+    <!-- ------------------------------------------------------------------- -->
+
+
+
+    <!-- ------------------------------------------------------------- -->
+    <section id="hero">
+        <!-- <div id="top"><h4 class='animated infinite heartBeat'><i class='bx bxs-flag-alt'></i>APNACART</h4></div> -->
+        <h4>Trade in offer</h4>
+         <h2>super Value Deal</h2>
+         <h1>Save More With Coupons & Up to 80% off!</h1>
+         <button>Shoap Now</button>
+    </section>
+ 
+    <div class="header">
+        <div class="container">
+            <b> NOTE :</b>
+            <marquee>
+                Don’t miss our MEGA SALE: Save up to 80% on select items!
+                This offer is for a limited time only.
+                Hurry, shop your favorites now.
+            </marquee>
+        </div>
+    </div>
+
+    <!-- ------------------- image Slider --------------------------------- -->
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: rgba(168, 182, 191, 0.916);
+        }
+        .imgSlider{
+            width: 100%;
+            height: 300px;
+            background-image: url(img/111.jpg);
+            background-size: 100% 100%;
+            box-shadow: rgba(149, 159, 165, 0.2) 0px 8px 24px;
+            animation: changeImage 20s linear infinite;
+        }
+
+        @keyframes changeImage {
+            0%{
+                background-image: url(img/111.jpg);
+            }
+            20%{
+                background-image: url(img/222.jpg);
+            }
+            40%{
+                background-image: url(img/333.jpg);
+            }
+            60%{
+                background-image: url(img/4444.jpg);
+            }
+            80%{
+                background-image: url(img/555.jpg);
+            }
+            100%{
+                background-image: url(img/666.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="imgSlider"></div>
+
+
+    <!-- ----------------------------------------------------------- -->
+    <!-- <section id="feature" class="section-p1">
+       
+        <div class="fe-box">
+            <img src="img/bg.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/4.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/3.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/6.jpg" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+    </section> -->
+    
+ 
+    <section id="product1" class="section-p1">
+        <h2>Feature Of product</h2>
+        <p>Summer Collection New modern design</p>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/7.11.jpg" height="300" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER</span>
+                <h5>Men Self Design Polo Neck Pure Cotton Red T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.4,969</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/8.1.jpg" height="300" alt="">
+            <div class="des">
+                <span>ADIDAS ORIGINALS </span>
+                <h5>Men Solid Polo Neck Cotton Blend Navy Blue T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.6,559</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/9.1.jpg" height="300" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER </span>
+                <h5>Men Graphic Print Crew Neck Cotton Blend White T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.4,655</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/10.1.jpg" height="300" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER </span>
+                <h5>Men Solid Polo Neck Cotton Blend Black T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.6,999</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/11.1.jpg" alt="">
+            <div class="des">
+                <span>ADIDAS </span>
+                <h5>Men Printed Round Neck Polyester Red T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.5,789</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/12.1.jpg" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER </span>
+                <h5>Men Embroidered Polo Neck Cotton Blend Navy Blue T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.6,769</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/13.1.jpg" alt="">
+            <div class="des">
+                <span>ADIDAS ORIGINALS </span>
+                <h5>ADV RIDE LS Men Typography Round Neck Pure Cotton Blue T-Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.7,645</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+    </div>
+    </section>
+    
+    <section id="banner" class="section-m1">
+        <h4>Repair Service</h4>
+        <h2>Up to <span>80% off</span> All Poster & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrival</h2>
+        <p>Summer Collection New modern design</p>
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/7.12.jpg" alt="">
+            <div class="des">
+                <span>U TURN </span>
+                <h5>Men Slim Fit Striped Spread Collar Casual Shirt
+                </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.10,000</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/8.12.jpg" alt="">
+            <div class="des">
+                <span>tallwalker</span>
+                <h5>Men Slim Fit Checkered Cut Away Collar Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.10500</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/9.12.jpg" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER</span>
+                <h5>Boys Regular Fit Solid Slim Collar Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.10,699</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/10.12.jpg" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER</span>
+                <h5>Men Regular Fit Solid Spread Collar Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.19,000</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/11.12.jpg" alt="">
+            <div class="des">
+                <span>SOLSTICE </span>
+                <h5>Men Regular Fit Solid Spread Collar Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.19,999</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/12.12.jpg" alt="">
+            <div class="des">
+                <span>JACK & JONES </span>
+                <h5>Men Regular Fit Printed Spread Collar Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.9000</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="img/13.12.jpg" alt="">
+            <div class="des">
+                <span>TOMMY HILFIGER</span>
+                <h5>Men Slim Fit Solid Casual Shirt</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>RS.10097</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+        </div>
+    </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deal</h4>
+            <h2>Buy 1 Get 2 Free</h2>
+            <span>The Best classic Dress is on sale at care</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Summer season</h4>
+            <h2>UpComing Season</h2>
+            <span>The Best classic card is on sale at care</span>
+            <button class="white">Collection</button>
+        </div>
+    </section> 
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>Season sale</h2>
+            <h3>Wedding card collection 50% off</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>New Card Design</h2>
+            <h3>Wedding card collection 2023</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>Poster</h2>
+            <h3>poster card collection 50% off</h3>
+        </div>
+    </section>
+
+    <section id="newslatter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get Email Update about our latest shop and <span>special offers</span>
+            </p>
+            <div class="form">
+                <input type="text" placeholder="Your email adress">
+                <button class="normal">Sign Up</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo1.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Adress: </strong> Mahendra boys Hostel , Tamilnadu</p>
+            <p><strong>Phone: </strong> +91 6256955245</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Daily</p>
+        </div>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+            </div> 
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy ploicy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install"> 
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                    <img src="img/a.png" width="10%" height="55%" alt="">
+                    <img src="img/an.png" width="10%" alt="">
+                    
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/p.png" width="15%" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>copyright © 2023 - ApnaCart</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
